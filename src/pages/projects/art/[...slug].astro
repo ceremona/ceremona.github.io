@@ -1,0 +1,26 @@
+---
+import { getCollection, render } from 'astro:content';
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import Video from '../../../components/Video.astro';
+import Gallery from '../../../components/Gallery.astro';
+import SoundCloud from '../../../components/SoundCloud.astro';
+export async function getStaticPaths() {
+  const projects = await getCollection('projects');
+  return projects.map(project => ({ params: { slug: project.id }, props: { project } }));
+}
+const { project } = Astro.props;
+const { Content } = await render(project);
+const data = project.data;
+---
+<BaseLayout title={data.title}>
+  <div class="project-header">
+    <h1>{data.title}</h1>
+    {data.subtitle && <p class="subtitle">{data.subtitle}</p>}
+    {data.meta && <p class="meta">{data.meta}</p>}
+  </div>
+  {data.videoId && <Video id={data.videoId} />}
+  {data.soundcloudUrl && <SoundCloud url={data.soundcloudUrl} />}
+  {data.galleryFolder && <Gallery folder={data.galleryFolder} captions={true} />}
+  <div class="prose"><Content /></div>
+  <p class="back-link"><a href="/projects/">&larr; Back to projects</a></p>
+</BaseLayout>

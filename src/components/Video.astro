@@ -1,0 +1,7 @@
+---
+interface Props { id: string; }
+const { id } = Astro.props;
+---
+<div class="video-embed">
+  <iframe src={`https://www.youtube.com/embed/${id}`} width="700" height="480" frameborder="0" allowfullscreen="true"></iframe>
+</div>

@@ -1,0 +1,42 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+const allProjects = await getCollection('projects');
+const featured = allProjects.filter(p => p.data.status === 'featured').sort((a, b) => (a.data.order || 99) - (b.data.order || 99));
+const archived = allProjects.filter(p => p.data.status === 'archived').sort((a, b) => (b.data.year || 0) - (a.data.year || 0));
+---
+<BaseLayout title="Projects">
+<div class="hero">
+  <h1>Projects</h1>
+  <p class="page-description">Moving sculpture, kinetic art, and interactive installations.</p>
+  <p class="tagline">Science | Art</p>
+</div>
+  <section>
+    <h2>Selected Work</h2>
+    <div class="project-grid">
+      {featured.map(project => (
+        <a href={`/projects/art/${project.id}/`} class="project-card">
+          {project.data.cover && <img class="card-image" src={project.data.cover} alt={project.data.title} loading="lazy" />}
+          <h3>{project.data.title}</h3>
+          {project.data.year && <span class="year">{project.data.year}</span>}
+          {project.data.summary && <p class="summary">{project.data.summary}</p>}
+        </a>
+      ))}
+    </div>
+  </section>
+  {archived.length > 0 && (
+    <section>
+      <details class="archive">
+        <summary>Older work ({archived.length} projects)</summary>
+        <div class="archive-list">
+          {archived.map(project => (
+            <a href={`/projects/art/${project.id}/`} class="archive-item">
+              <span>{project.data.title}</span>
+              {project.data.year && <span class="year">{project.data.year}</span>}
+            </a>
+          ))}
+        </div>
+      </details>
+    </section>
+  )}
+</BaseLayout>

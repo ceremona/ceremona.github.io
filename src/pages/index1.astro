@@ -1,0 +1,73 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../layouts/BaseLayout.astro';
+
+const allProjects = await getCollection('projects');
+const featured = allProjects
+  .filter(p => p.data.status === 'featured')
+  .sort((a, b) => (a.data.order || 99) - (b.data.order || 99));
+const archived = allProjects
+  .filter(p => p.data.status === 'archived')
+  .sort((a, b) => (b.data.year || 0) - (a.data.year || 0));
+---
+
+<BaseLayout title="Cere Davis">
+  <div class="hero">
+    <p class="tagline">Science | Art</p>
+  </div>
+
+  <section id="technical">
+    <h2>Technical</h2>
+    <p style="color: var(--text-dim); font-size: 0.95rem; max-width: 560px; margin-bottom: 1rem; font-weight: 300;">Reservoir computing, neuromorphic systems, and hybrid computational strategies.</p>
+    <p><a href="/technical/" style="color: var(--accent); text-decoration: none; font-size: 0.88rem;">Computing →</a></p>
+  </section>
+
+  <section id="projects">
+    <h2>Selected Work</h2>
+    <div class="project-grid">
+      {featured.map(project => (
+        <a href={`/projects/art/${project.id}/`} class="project-card">
+          {project.data.cover && (
+            <img class="card-image" src={project.data.cover} alt="" loading="lazy" />
+          )}
+          <h3>{project.data.title}</h3>
+          {project.data.year && <span class="year">{project.data.year}</span>}
+          {project.data.summary && <p class="summary">{project.data.summary}</p>}
+        </a>
+      ))}
+    </div>
+  </section>
+
+  {archived.length > 0 && (
+    <section>
+      <details class="archive">
+        <summary>Older work</summary>
+        <div class="archive-list">
+          {archived.map(project => (
+            <a href={`/projects/art/${project.id}/`} class="archive-item">
+              <span>{project.data.title}</span>
+              {project.data.year && <span class="year">{project.data.year}</span>}
+            </a>
+          ))}
+        </div>
+      </details>
+    </section>
+  )}
+
+  <section id="writing">
+    <h2>Writing</h2>
+    <p style="color: var(--text-muted); font-size: 0.9rem; font-weight: 300;">Coming soon.</p>
+  </section>
+
+  <section id="workshops">
+    <h2>Workshops</h2>
+    <p style="color: var(--text-dim); font-size: 0.95rem; max-width: 560px; margin-bottom: 1rem; font-weight: 300;">Light Shaping with Liquid Crystals — Spektrum Berlin, 2019. Science and Art — ZKM Center Karlsruhe, 2018.</p>
+    <p><a href="/workshops/" style="color: var(--accent); text-decoration: none; font-size: 0.88rem;">More →</a></p>
+  </section>
+
+  <section id="about">
+    <h2>About</h2>
+    <p style="color: var(--text-dim); font-size: 0.95rem; max-width: 560px; margin-bottom: 1rem; font-weight: 300;">Background in computer systems architecture, physics, and vocal improvisation. BS Physics, University of Alaska Fairbanks. Berkeley Civic Arts Grant recipient, 2018.</p>
+    <p><a href="/about/" style="color: var(--accent); text-decoration: none; font-size: 0.88rem;">Full bio →</a></p>
+  </section>
+</BaseLayout>

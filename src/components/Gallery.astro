@@ -1,0 +1,23 @@
+---
+import fs from 'node:fs';
+import path from 'node:path';
+interface Props { folder: string; captions?: boolean; }
+const { folder, captions = false } = Astro.props;
+const fsPath = path.join(process.cwd(), 'public', folder);
+let images: string[] = [];
+try {
+  images = fs.readdirSync(fsPath)
+    .filter(f => /\.(jpg|jpeg|png|gif|webp)$/i.test(f))
+    .sort();
+} catch {}
+---
+{images.length > 0 && (
+  <div class="photo-deck">
+    {images.map(img => (
+      <figure>
+        <a href={`${folder}${img}`}><img src={`${folder}${img}`} alt={img} loading="lazy" /></a>
+        {captions && <figcaption>{img.replace(/\.[^.]+$/, '').replace(/-/g, ' ')}</figcaption>}
+      </figure>
+    ))}
+  </div>
+)}
