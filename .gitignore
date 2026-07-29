@@ -3,6 +3,8 @@ dist/
 node_modules/
 .DS_Store
 Thumbs.db
+dump-state.sh
+site-state.txt
 *.swp
 *.swo
 *~
