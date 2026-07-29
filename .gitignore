@@ -5,6 +5,7 @@ node_modules/
 Thumbs.db
 dump-state.sh
 site-state.txt
+setup.sh
 *.swp
 *.swo
 *~
