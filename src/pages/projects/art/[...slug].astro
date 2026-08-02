@@ -20,7 +20,7 @@ const data = project.data;
   </div>
   {data.videoId && <Video id={data.videoId} />}
   {data.soundcloudUrl && <SoundCloud url={data.soundcloudUrl} />}
-  {data.galleryFolder && <Gallery folder={data.galleryFolder} captions={true} />}
+  {data.galleryFolder && <Gallery folder={data.galleryFolder} />}
   <div class="prose"><Content /></div>
   <p class="back-link"><a href="/projects/">&larr; Back to projects</a></p>
 </BaseLayout>

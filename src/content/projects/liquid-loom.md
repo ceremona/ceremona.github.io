@@ -1,7 +1,7 @@
 ---
 title: "Liquid Loom"
 subtitle: "Interactive Kinetic Sculpture & Projected Art"
-meta: "2018 · Awesome Foundation, SF Chapter"
+meta: "2018"
 year: 2018
 status: featured
 cover: /images/liquid-loom/cover.jpg
@@ -38,5 +38,18 @@ Liquid crystal displays are, in essence, charged liquid sandwiched between a mic
     <li>San Francisco Awesome Foundation, SF, 2018</li>
     <li>Leonardo/ISAST Convening & 50th Anniversary, San Francisco Art Institute, 2018</li>
     <li>Forms — Stanford University 200 year commemoration of Mary Shelley, 2018</li>
+  </ul>
+</div>
+
+<div class="exhibitions">
+  <h3>Sponsored by</h3>
+  <ul>
+    <li>Awesome Foundation, SF Chapter</li>
+    <li>Berkeley Civic Arts</li>
+  </ul>
+
+  <h3>Featured in</h3>
+  <ul>
+    <li>Neural magazine, Issue 61. <em>Liquid Loom, Terminal Recycled Aesthetics</em></li>
   </ul>
 </div>

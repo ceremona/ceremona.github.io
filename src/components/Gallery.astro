@@ -1,8 +1,8 @@
 ---
 import fs from 'node:fs';
 import path from 'node:path';
-interface Props { folder: string; captions?: boolean; }
-const { folder, captions = false } = Astro.props;
+interface Props { folder: string; }
+const { folder } = Astro.props;
 const fsPath = path.join(process.cwd(), 'public', folder);
 let images: string[] = [];
 try {
@@ -12,12 +12,31 @@ try {
 } catch {}
 ---
 {images.length > 0 && (
-  <div class="photo-deck">
-    {images.map(img => (
-      <figure>
-        <a href={`${folder}${img}`}><img src={`${folder}${img}`} alt={img} loading="lazy" /></a>
-        {captions && <figcaption>{img.replace(/\.[^.]+$/, '').replace(/-/g, ' ')}</figcaption>}
-      </figure>
-    ))}
+  <div class="gallery-wrap">
+    <button class="gallery-arrow gallery-prev" aria-label="Previous images">←</button>
+    <div class="photo-deck" data-gallery>
+      {images.map(img => (
+        <figure>
+          <a href={`${folder}${img}`}><img src={`${folder}${img}`} alt={img} loading="lazy" /></a>
+        </figure>
+      ))}
+    </div>
+    <button class="gallery-arrow gallery-next" aria-label="Next images">→</button>
   </div>
 )}
+
+<script>
+  document.querySelectorAll('[data-gallery]').forEach(deck => {
+    const wrap = deck.closest('.gallery-wrap');
+    if (!wrap) return;
+    const prev = wrap.querySelector('.gallery-prev');
+    const next = wrap.querySelector('.gallery-next');
+    const step = () => {
+      const fig = deck.querySelector('figure');
+      const gap = parseInt(getComputedStyle(deck).gap) || 24;
+      return fig ? fig.offsetWidth + gap : 300;
+    };
+    prev?.addEventListener('click', () => deck.scrollBy({ left: -step(), behavior: 'smooth' }));
+    next?.addEventListener('click', () => deck.scrollBy({ left: step(), behavior: 'smooth' }));
+  });
+</script>
