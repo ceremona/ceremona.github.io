@@ -8,4 +8,6 @@ title: "Writing"
   <p class="tagline">Essays and notes.</p>
 </div>
 
-*Coming soon.*
+**Mimetic Computing** · [substack.com/@wholem/p-209688159](https://substack.com/@wholem/p-209688159)
+
+
