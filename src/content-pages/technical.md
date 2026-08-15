@@ -1,8 +1,3 @@
----
-layout: ../layouts/BaseLayout.astro
-title: "Technical"
----
-
 <div class="hero">
   <h1>Systems Engineering & Physical Computing Research</h1>
 </div>
