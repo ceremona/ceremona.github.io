@@ -4,9 +4,9 @@
 
 <div class="prose">
 
-Kernel-level systems engineering, network forensics and protocol analysis,
+Systems engineering, network forensics and protocol analysis,
 database virtualization, and the physical computation layer: kinetic systems,
-industrial instrumentation, and reservoir computing.
+industrial instrumentation, science education, unconventional computing, reservoir computing.
 
 
 ## Trajectory
@@ -14,8 +14,7 @@ industrial instrumentation, and reservoir computing.
 Twenty years of cross-disciplinary systems work: from modifying Linux kernels for distributed computing, to network forensics for L1–7
 protocols, to building embedded measurement rigs and kinetic control
 systems for industrial thermal processes. Deep physics foundation.
-Currently modeling dynamical systems and physical reservoir computing,
-building toward physical/algorithmic co-design.
+Currently modeling dynamical systems using Topological Data Analysis and developing thermodymic-based computing systems.
 
 [Download Technical CV (PDF)](/cv/cere-davis-systems-2025.pdf)
 
@@ -116,7 +115,13 @@ with the prototyping rigor of industrial R&D.
 
 ## Selected Projects & Research
 
-**CA-as-Reservoir** · [github.com/ceremona/CA-as-Reservoir](https://github.com/ceremona/CA-as-Reservoir)
+**Extropic.AI Computing using KL Divergence** · 2026 · [github.com/ceremona/Extropic-ai-examples](https://github.com/ceremona/Extropic-ai-examples)
+Gibbs sampling to reconstruct an image of corrupted pixels using a bayesian Markov Random Field method.
+
+**LLM Dissections and Topological Analysis** · 2026 · [github.com/ceremona/nnsight_benchmarks](https://github.com/ceremona/nnsight_benchmarks)
+LLM Interpretability experiments with NNsight
+
+**CA-as-Reservoir** · 2026 · [github.com/ceremona/CA-as-Reservoir](https://github.com/ceremona/CA-as-Reservoir)
 Investigating cellular automata as discrete physical reservoirs for temporal
 computation. Characterizing memory capacity and nonlinear dynamics at the edge of
 chaos; exploring implications for analog and unconventional computing substrates.
@@ -125,9 +130,8 @@ Implemented in Python with custom readout and statistical analysis.
 **Dispersion Trading Simulation** · Spring 2025
 Built a quantitative modeling framework in Python for options dispersion analysis.
 
-**Ongoing Graduate-Level Study** · 2024 – Present
-Independent deep-dive into neuromorphic architectures, generative model internals,
-and first-principles ML framework mechanics.
+**Ongoing Research** · 2024 – Present
+Independent deep-dive into neuromorphic architectures, generative model internals, and first-principles ML framework mechanics.
 
 ---
 
