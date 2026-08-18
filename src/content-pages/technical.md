@@ -160,5 +160,5 @@ Data acquisition, Institutional systems migration
 
 - [GitHub](https://github.com/ceremona)
 - [LinkedIn](https://www.linkedin.com/in/ceredavis/)
-- [Art & Curatorial Archive](/)
+- [Art & Curatorial Archive](/projects)
 </div>
