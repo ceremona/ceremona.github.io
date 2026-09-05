@@ -36,12 +36,12 @@ const path = Astro.url.pathname;
 /* ─── Colors: change these once, everything updates ─── */
 
 :root {
-  --bg: #e1e3e0;
+  --bg: #e8e9e6;  
   --text: #1d1f1f;
-  --text-dim: #4a5050;
+  --text-dim: #454f48
   --text-muted: #6a7070;
-  --accent: #5a7a5a;
-  --accent-hover: #4a6a4a;
+  --accent: #6f9873;
+  --accent-hover: #537a56;
 }
 
 html {
@@ -235,8 +235,16 @@ section h2 {
 }
 .prose ul { list-style: disc; padding-left: 1.5rem; margin-bottom: 1.5rem; }
 .prose li { margin-bottom: 0.5rem; color: var(--text-dim); font-size: 0.92rem; font-weight: 400; }
-.prose strong { color: var(--text); font-weight: 500; }
-.prose a { color: var(--accent); text-decoration: none; transition: color 0.2s; }
+.prose strong { color: var(--text); font-weight: 600; text-decoration: none; transition: color 0.2s; }
+.prose a {
+  color: var(--accent);
+  font-weight: 600;
+  text-decoration: none;
+  text-decoration-line: underline;
+  text-decoration-color: transparent;   /* invisible until hover */
+  text-underline-offset: 3px;
+  transition: color 0.2s, text-decoration-color 0.2s;
+}
 .prose a:hover { color: var(--accent-hover); }
 
 /* ─── Photo deck ─── */
@@ -275,7 +283,7 @@ section h2 {
   top: 50%;
   transform: translateY(-50%);
   z-index: 2;
-  background: rgba(225, 227, 224, 0.9);
+  background: rgba(232, 233, 230, 0.9);
   border: 1px solid var(--text-muted);
   color: var(--text);
   width: 2.2rem;
@@ -293,7 +301,7 @@ section h2 {
 }
 .gallery-arrow:hover {
   opacity: 1;
-  background: rgba(225, 227, 224, 1);
+  background: rgba(232, 233, 230 1.0);
 }
 .gallery-prev { left: 0.4rem; }
 .gallery-next { right: 0.4rem; }
