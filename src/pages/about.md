@@ -12,9 +12,9 @@ Hi! 👋 I'm Cere Davis.
 
 I am a multidisciplinary artist, engineer and researcher based in Berkeley, CA. 
 I work in Software Systems Engineering, Science-art and education. 
-I offer workshops and develop educational curriculum adjacent to the scientific principles underlying my [kinetic sculpture and scientific artworks](/Projects).
-My art exhibits and workshops are motivated by a central curiousity about complex systems and a desire to inspire curiousity in others. I believe science can be playful and epistemology can be fun, even for adults. 
-I research a broad array of topics with an aim to reveal fundamental underlying principles and themes. I live for the "ah-hah" moment in solving engineering problems and discovering new scientific connections; and love to share it with others. 
+I offer workshops and develop educational curriculum adjacent to underlying my [kinetic sculpture and scientific artworks](/Projects).
+My art exhibits and workshops are motivated by a central curiousity about complex systems and a desire to inspire scientific curiousity in others. I believe science can be playful and epistemology can be fun, even for adults. 
+I research a broad array of topics with an aim to understand underlying principles and themes. I live for the "ah-hah" moment in solving engineering problems and discovering new scientific connections; and love to share the "ah-hah" with others. 
 
 I have extensive experience providing software engineering and architectural services to educational and corporate institutions. 
 I and have worked in a wide range of domains including designing complex computational clusters, redundent/distrubuted web architectures, debugging distributed WAN network anomalies, writing test/automation [code](https://github.com/ceremona) and modifying and Kernel-level code debugging.
@@ -28,7 +28,6 @@ If you would like to reach out to me, I can be found at:
 - [Github](https://github.com/ceremona)
 
 ---
-
 
 ## Education
 
