@@ -21,8 +21,11 @@ I and have worked in a wide range of domains including designing complex computa
 
 When I am not doing research, programming or making exhibits, I enjoy vocal improv or playing abstract compositions on the piano.
 
-If you would like to reach out to me, I can be contacted at: ceremona_at_gmail.com
+If you would like to reach out to me, I can be found at: 
 
+- [cere@ceredavis.com](mailto:cere@ceredavis.com)
+- [LinkedIn](https://www.linkedin.com/in/ceredavis)
+- [Github](https://github.com/ceremona)
 
 ---
 
@@ -98,9 +101,4 @@ If you would like to reach out to me, I can be contacted at: ceremona_at_gmail.c
 - C Davis, G Seshaajyar, Jp McClymer, A Comparison of Micro-Viscosity to Shear Viscosity in Lyotropic Nematic Liquid Crystals. Bulletin of APS, v. 38, issue. 768 (1993)
 - S R McNutt and C Davis, Lightning Associated with the 1992 Eruptions of Mt. Spurr Volcano, Alaska
 
-## Contact
-
-- [cere@ceredavis.com](mailto:cere@ceredavis.com)
-- [LinkedIn](https://www.linkedin.com/in/ceredavis)
-- [Github](https://github.com/ceremona)
 </div>
