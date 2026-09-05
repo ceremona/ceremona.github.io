@@ -32,6 +32,7 @@ If you would like to reach out to me, I can be found at:
 ## Education
 
 - BS Physics, University of Alaska, Fairbanks, 1993
+- MA Philosophy of Science, Leibniz Universitaat, Hannover
 
 ## Awards
 
