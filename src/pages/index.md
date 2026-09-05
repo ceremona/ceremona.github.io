@@ -26,6 +26,7 @@ If you would like to reach out to me, I can be found at:
 - [cere@ceredavis.com](mailto:cere@ceredavis.com)
 - [LinkedIn](https://www.linkedin.com/in/ceredavis)
 - [Github](https://github.com/ceremona)
+- [Scholar](https://scholar.google.com/citations?hl=en&user=9cgTLzAAAAAJ)
 
 ---
 
