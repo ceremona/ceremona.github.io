@@ -44,7 +44,7 @@ const path = Astro.url.pathname;
   --accent-hover: #4a7a68;
   --overlay: rgba(232, 233, 230, 0.9);   /* ← new */
 }
-@media (prefers-color-scheme: dark) {
+@media (prefers-color-scheme: light) {
   :root {
     --bg: #14181a;
     --text: #f2f4f1;         /* was #e8eae8  — ~15.5:1 */
@@ -131,7 +131,7 @@ nav a.active:visited { color: var(--text); }
 .bio {
   color: var(--text-dim);
   font-size: 1.1rem;
-  font-weight: 400;
+  font-weight: 500;
   max-width: 560px;
   margin-bottom: 0.8rem;
 }
