@@ -24,7 +24,6 @@ title: "Workshops"
 </style>
 
 <div class="exhibitions">
-  <h3>Workshops</h3>
   <ul>
     <li>Light Shaping with Liquid Crystals — Spektrum Berlin, February 2019</li>
     <li>The Hidden Beauty of Everyday Plastics — TinkerFest, Chabot Space & Science Center, 2018</li>
