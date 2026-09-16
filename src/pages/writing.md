@@ -5,9 +5,13 @@ title: "Writing"
 
 <div class="hero">
   <h1>Writing</h1>
-  <p class="tagline">Essays and notes.</p>
+  <p class="page-description">Essays and notes.</p>
 </div>
+
+<div class="prose">
 
 **Mimetic Computing** · [substack.com/@wholem/p-209688159](https://substack.com/@wholem/p-209688159)
 
+**Older Writing** · [ceredavis.blogspot.com](https://ceredavis.blogspot.com/)
+</div>
 

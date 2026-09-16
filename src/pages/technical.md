@@ -3,7 +3,7 @@ layout: ../layouts/BaseLayout.astro
 title: "..."
 ---
 <div class="hero">
-  <h1>Systems Engineering & Physical Computing Research</h1>
+  <h2>Systems Engineering & Physical Computing Research</h2>
 </div>
 
 <div class="prose">
