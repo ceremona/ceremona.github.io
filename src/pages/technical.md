@@ -157,6 +157,4 @@ calibration, LabVIEW, LTSpice, KiCad, CAD (Fusion 360)
 - Board Member - Counter Culture Labs (2014-2016).
 
 ---
-
-© 2026 Cere Davis cere_at_ceredavis.com
 </div>
