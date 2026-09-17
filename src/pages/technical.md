@@ -68,7 +68,7 @@ Deliver instrumentation, data-acquisition software, and physical-measurement ana
 - Inspect Air Quality (2017): Wrote data-acquisition and control code for environmental sensor systems on 32-bit microcontrollers; authored deployment and programming documentation for non-specialist field users.
 - ElectroTherm (2014–2015): Analyzed solar radiance measurements for a thermal solar tracker developer. Integrated client time-series with NREL reference datasets to quantify power-conversion gains; validated measured performance against a national reference standard.
 - Energy R&D client (2013–2014): Lab instrumentation operation and maintenance, experimental physical-measurement data analysis, and lab data-acquisition and computing infrastructure.
-- Mechatronic & kinetic systems: Sensor-driven kinetic assemblies with real-time closed-loop motor control; CAD (Fusion 360), embedded programming (C/++, Python,MCU) analog sensor integration.
+- Mechatronic & kinetic systems: Sensor-driven kinetic assemblies with real-time closed-loop motor control; CAD (Fusion 360), embedded programming (C/C++, Python, Arduino Microcontrollers) analog sensor integration.
 - Research & prototyping: Iterative hardware/software design for scientific instrumentation; laboratory testing protocols, data analysis, and materials characterization.
 
 **Principal Platform Design Engineer, VCE** · Jun 2011 – Jun 2012 · Full-time
