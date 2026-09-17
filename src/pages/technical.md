@@ -17,7 +17,7 @@ modeling of physical systems. Nearly three decades across Linux kernel internals
 networking, and distributed systems, now focused on scientific computing and
 geophysical data.
 
-ceremona_at_gmail.com · 206.414.9448 · [github](https://github.com/ceremona) · [linkedin](https://linkedin.com/in/ceredavis)
+ceremona_at_gmail.com · 206.414.9448 · [Github](https://github.com/ceremona) · [Linkedin](https://linkedin.com/in/ceredavis)
 
 
 ## Trajectory
