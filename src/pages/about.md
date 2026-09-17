@@ -11,26 +11,37 @@ title: "About"
 Hi! 👋 I'm Cere Davis.
 
 I am a multidisciplinary artist, engineer and researcher based in Berkeley, CA.
-I work in Software Systems Engineering, Science-art and education.
-I offer workshops and develop educational curriculum adjacent to the scientific principles underlying my [kinetic sculpture and scientific artworks](/projects). 
+I work as a consulting Systems Engineer, Science-artist and educator.
 I research a broad array of topics with an aim to understand underlying principles and themes. I live for the "aha" moment in solving engineering problems and discovering new scientific connections, and I love to share that "ah-hah" with others.
-I have extensive experience providing software and hardware engineering and architectural services to educational and corporate institutions.
-I have worked in a wide range of domains, including designing complex computational clusters, redundant/distributed web architectures, debugging distributed WAN network anomalies, writing test/automation [code](https://github.com/ceremona), and modifying and debugging kernel-level code.
+
+I have extensive experience providing software and hardware engineering solutions to educational and corporate institutions.
+I have worked in a wide range of domains, including instrumenation field work, designing complex computational clusters, redundant/distributed web architectures, debugging distributed WAN network anomalies, writing test/automation [code](https://github.com/ceremona), and modifying and debugging kernel code.
 
 My art exhibits and workshops are motivated by a central curiosity about complex systems and a desire to inspire scientific curiosity in others. I believe science can be playful and epistemology can be fun, even for adults.
+I offer workshops and develop educational curriculum adjacent to the scientific principles underlying my [kinetic sculpture and scientific artworks](/projects). 
 
 When I am not doing research, programming or making exhibits, I enjoy vocal improv or playing abstract compositions on the piano.
 
 If you would like to reach out to me, I can be found at:
 
-- [cere@ceredavis.com](mailto:cere@ceredavis.com)
+- [Ceremona_at_gmail.com](mailto:ceremona@gmail.com)
 - [LinkedIn](https://www.linkedin.com/in/ceredavis)
 - [Github](https://github.com/ceremona)
 
 ## Education
 
 - BS Physics, University of Alaska, Fairbanks, 1993
-- MA Philosophy of Science, Leibniz Universität, Hannover
+- MA Philosophy of Science, Leibniz Universität, Hannover 2022
+
+## Publications
+
+- Instructables: Creating "Fire Ants", Moving Sculpture
+- Editor of "Captaincy, a naval miniatures game for the age of sail" by John Carnahan
+- Instructables: Creating Long Acousto-Kinetic "Reverb" Springs
+- C M Davis and S. McNutt, Lightning Associated with the 1992 Eruptions of Mt. Spurr Volcano, Alaska. EOS, Transactions of the American Geophysical Union, vol. 74, no. 43, supplement, p. 649, 1993.
+- C M Davis and S. McNutt, Volcanic Lightning at Mt. Spurr, 1992. Colima Volcano: Fourth International Meeting, Colima, Mexico. January 24 to 28, 1994, p. 112, Abstracts Volume
+- C Davis, G Seshaajyar, JP McClymer, A Comparison of Micro-Viscosity to Shear Viscosity in Lyotropic Nematic Liquid Crystals. Bulletin of APS, v. 38, issue. 768 (1993)
+- S R McNutt and C M Davis, Lightning Associated with the 1992 Eruptions of Crater Peak, Mount Spurr Volcano, Alaska. Journal of Volcanology and Geothermal Research, vol. 102, no. 1–2, pp. 45–65, 2000.
 
 ## Awards
 
@@ -88,20 +99,4 @@ If you would like to reach out to me, I can be found at:
 - The Art of Motion — LASER Talks, Berkeley, CA, April 2016
 - Speaking panelist in SFMOMA Open Space discussion on Open Spaces and Ownership, 2015
 - Panel speaker at LAST Festival's Homo Digitalis lecture series, Stanford, CA, 2015
-
-## Publications
-
-- Instructables: Creating "Fire Ants", Moving Sculpture
-- Editor of "Captaincy, a naval miniatures game for the age of sail" by John Carnahan
-- Instructables: Creating Long Acousto-Kinetic "Reverb" Springs
-- C M Davis and S. McNutt, Lightning Associated with the 1992 Eruptions of Mt. Spurr Volcano, Alaska. EOS, Transactions of the American Geophysical Union, vol. 74, no. 43, supplement, p. 649, 1993.
-- C M Davis and S. McNutt, Volcanic Lightning at Mt. Spurr, 1992. Colima Volcano: Fourth International Meeting, Colima, Mexico. January 24 to 28, 1994, p. 112, Abstracts Volume
-- C Davis, G Seshaajyar, JP McClymer, A Comparison of Micro-Viscosity to Shear Viscosity in Lyotropic Nematic Liquid Crystals. Bulletin of APS, v. 38, issue. 768 (1993)
-- S R McNutt and C M Davis, Lightning Associated with the 1992 Eruptions of Crater Peak, Mount Spurr Volcano, Alaska. Journal of Volcanology and Geothermal Research, vol. 102, no. 1–2, pp. 45–65, 2000.
-
-## Contact
-
-- [cere@ceredavis.com](mailto:cere@ceredavis.com)
-- [LinkedIn](https://www.linkedin.com/in/ceredavis)
-- [Github](https://github.com/ceremona)
 </div>

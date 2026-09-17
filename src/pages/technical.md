@@ -8,122 +8,120 @@ title: "..."
 
 <div class="prose">
 
-Systems engineering, network forensics and protocol analysis,
-database virtualization, and the physical computation layer: kinetic systems,
-industrial instrumentation, science education, unconventional computing, reservoir computing.
+## Systems & Data Engineering for Physical Measurement
+
+
+Systems and data engineering for hardware that measures the physical world: lab
+instrumentation, field-deployed sensors, industrial data acquisition, and the
+modeling of physical systems. Nearly three decades across Linux kernel internals,
+networking, and distributed systems, now focused on scientific computing and
+geophysical data.
+
+ceremona@gmail.com · 206.734.1523 · [github](https://github.com/ceremona) · [linkedin](https://linkedin.com/in/ceredavis)
 
 
 ## Trajectory
 
-Twenty years of cross-disciplinary systems work: from modifying Linux kernels for distributed computing, to network forensics for L1–7
-protocols, to building embedded measurement rigs and kinetic control
-systems for industrial thermal processes. Deep physics foundation.
-Currently modeling dynamical systems using Topological Data Analysis and developing thermodymic-based computing systems.
+Nearly three decades of cross-layer systems work: from modifying Linux kernels in
+C for distributed computing, to wire-level network forensics (L1–7), to building
+embedded measurement rigs and data-acquisition systems for industrial thermal
+processes. Deep physics foundation with published field-geophysics research.
+Currently focused on scientific computing, statistical modeling, and the analysis
+of physical-world data.
 
-[Download Technical CV (PDF)](/cv/cere-davis-systems-2025.pdf)
+## Field Science & Instrumentation
 
----
+**Science Technician, South Pole Station, Antarctica** · 1993–1994
+*Atmospheric ozone / optical instrumentation*
+
+- **Instrument operations:** Operated, maintained, and repaired optical, UV-A/B/C,
+  and aurora/airglow measurement instruments for atmospheric ozone research.
+- **Field conditions:** Collected continuous data through the Antarctic winter;
+  diagnosed and repaired instrument failures in isolation, with no resupply and no
+  possibility of recovering lost data.
+
+**Seismological Analyst (Intern), University of Alaska Fairbanks — Geophysical Institute** · 1992–1993
+*Field seismology / multi-station data analysis*
+
+- **Field deployment & analysis:** Assisted in regional seismometer field
+  deployment; performed multi-station time-series analysis on seismic network data.
+- **Anomaly detection:** Identified anomalous simultaneous signals across stations,
+  showed the simultaneity could not be explained by acoustic propagation, and
+  traced the signal to volcanic lightning — leading to a co-authored publication.
+
+## Publications
+
+- C.M. Davis & S.R. McNutt, "Lightning Associated with the 1992 Eruptions of
+  Crater Peak, Mount Spurr Volcano, Alaska," *Journal of Volcanology & Geothermal
+  Research*, 2000.
+- Volcanic lightning observations — Mount Spurr (EOS/AGU, 1993); Colima (1994).
+- "A Comparison of Micro-Viscosity to Shear Viscosity in Lyotropic Nematic Liquid Crystals," *Bulletin of the American Physical Society*, 1993.
 
 ## Engineering Experience
 
-**Independent Systems & Research Consultant** · Jul 2012 – Present
+**Independent Systems Engineer & Research Consultant** · Jul 2012 – Present
 *Berkeley, CA · Hybrid / Remote*
 
-Concurrent engineering practice spanning embedded instrumentation, kinetic
-systems, and industrial measurement. Overlapped with research residencies
-at Manylabs and Chabot Space & Science Center; mechatronic work executed
-with the prototyping rigor of industrial R&D.
+Deliver instrumentation, data-acquisition software, and physical-measurement analysis for industrial, energy, and environmental clients.
 
-- **Kinetic & Mechatronic Systems:** Sensor-driven kinetic assemblies with
-  real-time closed-loop motor control. Mechanical design and CAD
-  (Fusion 360), embedded programming (C, Python, microcontrollers), and analog
-  sensor integration for physically responsive electromechanical systems.
-- **Industrial Instrumentation:** Embedded measurement and control for
-  thermal and energy-sector clients. Analog frontend design (LTSpice),
-  signal conditioning, real-time data acquisition (LabVIEW), and
-  thermal-dynamics profiling (Python, C).
-- **Physical Computing R&D:** Iterative hardware/software design for
-  scientific instrumentation; laboratory testing protocols, data analysis,
-  and materials characterization.
-- **Machine Learning Trajectory:** Early deep-learning workflow exploration
-  via FastAI; current independent study in NumPy-based dynamical systems
-  simulation and generative model internals (EBMs, diffusion) toward
-  neuromorphic and physical computing substrates.
-
-**Consulting Design Engineer, ALL Power Labs** · May 2019 – Aug 2019 · Contract
-*Berkeley, CA*
-
-- Designed, tested, and deployed a thermal measurement and monitoring system
-  for integration into a large-scale industrial pyrolysis reactor. Analog
-  frontend and PCB development using EDA tools (KiCad) alongside LTSpice
-  circuit simulation.
-- Planned software architecture for integration into a larger data-analytics
-  pipeline.
+- ALL Power Labs (2019): Designed, built, and field-tested a thermal measurement and monitoring system for a large-scale industrial pyrolysis reactor. Sensor selection, analog frontend and PCB development (KiCad, LTSpice), signal conditioning, calibration, and real-time data acquisition (LabVIEW, Python) under thermal and electrical noise. Planned integration into a downstream data-analytics pipeline.
+- Inspect Air Quality (2017): Wrote data-acquisition and control code for environmental sensor systems on 32-bit microcontrollers; authored deployment and programming documentation for non-specialist field users.
+- ElectroTherm (2014–2015): Analyzed solar radiance measurements for a thermal solar tracker developer. Integrated client time-series with NREL reference datasets to quantify power-conversion gains; validated measured performance against a national reference standard.
+- Energy R&D client (2013–2014): Lab instrumentation operation and maintenance, experimental physical-measurement data analysis, and lab data-acquisition and computing infrastructure.
+- Mechatronic & kinetic systems: Sensor-driven kinetic assemblies with real-time closed-loop motor control; CAD (Fusion 360), embedded programming (C/++, Python,MCU) analog sensor integration.
+- Research & prototyping: Iterative hardware/software design for scientific instrumentation; laboratory testing protocols, data analysis, and materials characterization.
 
 **Principal Platform Design Engineer, VCE** · Jun 2011 – Jun 2012 · Full-time
 *San Jose, CA · On-site*
 
 - Architected fully integrated compute/storage/network platforms for enterprise
   deployment (EMC, Cisco, VMware stack).
-- Owned cross-subsystem integration and hardware-to-orchestration validation
-  loops.
+- Owned cross-subsystem integration and hardware-to-orchestration validation loops.
 
 **Senior Solutions Architect, Wholem IT** · May 2010 – Sep 2010 · Contract
 *Greater Seattle Area · Hybrid*
 
-- Directed the enterprise migration of an entire institutional IT infrastructure
-  to Google Workspace. Built the transition roadmap and coordinated execution
-  across all critical pillars: identity/security, DNS, databases, email, and
-  filesystems.
-- Required cross-departmental diplomacy and director-level leadership; delivered
+- Directed the enterprise migration of an entire institutional IT infrastructure to
+  Google Workspace. Built the transition roadmap and coordinated execution across
+  identity/security, DNS, databases, email, and filesystems.
+- Required cross-departmental diplomacy and director-level leadership; delivered a
   cohesive, institution-wide cutover with zero downtime.
 
 **Pre / Post-Sales Enterprise Network Engineer, F5 Networks** · Oct 2006 – Jun 2010
 *Seattle, WA · On-site*
 
-- **Network Forensics & Protocol Analysis:** Used Wireshark and custom tooling
-  for deep L1–7 packet and protocol analysis. Reproduced complex customer
-  network pathologies in the lab, isolating root cause across routing, TCP/IP,
-  SSL, and application-layer behavior.
-- **Systems Prototyping:** Built complex, multi-vendor lab environments
-  (Cisco 6500, VMware ESX, LanForge packet generators) to mirror production
-  failure modes for WAN optimization appliances.
-- **Automation & Performance:** Developed test automation and instrumentation
-  for Alpha/Beta feature validation. Generated product-supportability roadmaps
-  and fed strategic feature priorities back to engineering.
+- **Network Forensics & Protocol Analysis:** Used Wireshark and custom tooling for
+  deep L1–7 packet and protocol analysis. Reproduced complex customer network
+  pathologies in the lab, isolating root cause across routing, TCP/IP, SSL, and
+  application-layer behavior.
+- **Systems Prototyping:** Built complex, multi-vendor lab environments (Cisco 6500,
+  VMware ESX, LanForge packet generators) to mirror production failure modes for WAN
+  optimization appliances.
+- **Automation & Performance:** Developed test automation and instrumentation for
+  Alpha/Beta feature validation; fed strategic feature priorities back to engineering.
 
 **Senior System Architect & Engineer, University of Washington** · Jul 1997 – Jul 2005
 *Seattle, WA · Full-time*
 
-- **Kernel & Distributed Systems:** Modified Linux kernel headers and source in
-  C to maintain compatibility with the OpenMosix distributed process-migration
-  patch. Debugged race conditions and memory-model issues across a clustered
-  Unix environment.
+- **Kernel & Distributed Systems:** Modified Linux kernel headers and source in C for
+  compatibility with the OpenMosix distributed process-migration patch. Debugged race
+  conditions and memory-model issues across a clustered Unix environment.
 - **Cluster Architecture:** Architected and built a research-grade Unix compute
-  cluster and network infrastructure from the ground up for research workloads.
-  Developed load-gathering tools (Python), TCP/IP state-tracking utilities,
-  and automation frameworks for cluster software deployment and performance
-  regression testing.
-- **Virtualization:** Deployed and managed Xen and VMware virtual-desktop
-  environments for research users.
+  cluster and network infrastructure from the ground up. Developed load-gathering
+  tools (Python), TCP/IP state-tracking utilities, and automation frameworks for
+  cluster software deployment and performance regression testing.
+- **Virtualization:** Deployed and managed Xen and VMware virtual-desktop environments.
 
-**Cofounder & Lead Architect, Election Verification Network** · Jul 2003 – Jul 2010
-*Seasonal / National*
-
-- Architected and deployed a nationwide incident-reporting system in partnership
-  with Verified Voting and CPSR (Computer Professionals for Social Responsibility).
-- Responsible for end-to-end system design, database schema, network topology,
-  and operational security.
-
----
+**Unix Systems Administrator, North Seattle Community College** · 1996–1997
+**Unix Systems Deployment Engineer, Digital Systems Inc.** · 1995
 
 ## Selected Projects & Research
 
-**Extropic.AI Computing using KL Divergence** · 2026 · [github.com/ceremona/Extropic-ai-examples](https://github.com/ceremona/Extropic-ai-examples)
-Gibbs sampling to reconstruct an image of corrupted pixels using a bayesian Markov Random Field method.
+**Extropic.AI — Computing using KL Divergence** · 2026 · [github.com/ceremona/Extropic-ai-examples](https://github.com/ceremona/Extropic-ai-examples)
+Gibbs sampling to reconstruct an image of corrupted pixels using a Bayesian Markov Random Field method.
 
-**LLM Dissections and Topological Analysis** · 2026 · [github.com/ceremona/nnsight_benchmarks](https://github.com/ceremona/nnsight_benchmarks)
-LLM Interpretability experiments with NNsight
+**LLM Dissections & Topological Analysis** · 2026 · [github.com/ceremona/nnsight_benchmarks](https://github.com/ceremona/nnsight_benchmarks)
+LLM interpretability experiments with NNsight.
 
 **CA-as-Reservoir** · 2026 · [github.com/ceremona/CA-as-Reservoir](https://github.com/ceremona/CA-as-Reservoir)
 Investigating cellular automata as discrete physical reservoirs for temporal
@@ -131,38 +129,34 @@ computation. Characterizing memory capacity and nonlinear dynamics at the edge o
 chaos; exploring implications for analog and unconventional computing substrates.
 Implemented in Python with custom readout and statistical analysis.
 
-**Dispersion Trading Simulation** · Spring 2025
-Built a quantitative modeling framework in Python for options dispersion analysis.
-
 **Ongoing Research** · 2024 – Present
 Independent deep-dive into neuromorphic architectures, generative model internals, and first-principles ML framework mechanics.
 
----
-
 ## Tools & Methods
 
-**Languages:** Python, C, C++, Shell  
-**Systems & HW:** Linux kernel internals, Microcontrollers, Embedded systems,
-Networking (L1–7), Virtualization, Kubernetes, Signal conditioning  
-**Modeling & ML:** NumPy, SciPy, LTSpice; early FastAI exposure  
-**Design & Analysis:** CAD (Fusion 360), EDA (KiCad), LabVIEW  
-**Domains:** Reservoir computing, Kinetic systems, Network forensics,
-Instrumentation, Performance analysis, Industrial thermal systems,
-Data acquisition, Institutional systems migration
-
----
+**Languages:** Python, C, C++, SQL, Shell
+**Scientific & Data:** NumPy, SciPy, pandas, xarray; time-series analysis, spatial
+analysis, uncertainty quantification, applied statistics
+**ML & Modeling:** MCMC, Gibbs sampling, PCA/EOF, Markov Random Fields;
+deep-learning fundamentals (actively building depth)
+**Systems:** Linux kernel internals, distributed systems, TCP/IP networking (L1–7),
+virtualization, Docker, Kubernetes, git, CI/CD
+**Hardware:** microcontrollers, embedded systems, data acquisition, sensor
+calibration, LabVIEW, LTSpice, KiCad, CAD (Fusion 360)
+**Cloud:** Google Cloud Platform (BigQuery, Cloud Run)
 
 ## Education
 
-- **MS Statistics** (coursework focus), [Institution], [Dates]  
-- **MA Philosophy of Science**, [Leibniz University], [Dates]  
-- **BS Physics**, [Institution], [Dates]
+- **BS, Physics** — University of Alaska Fairbanks, 1992
+- **Graduate coursework, Statistics & Epidemiology** — University of Washington, 2000–2006
+- **MA, Philosophy of Science** — Leibniz Universität Hannover, 2022
+
+## Community
+
+- Education Exhibit Designer - California Historical Radio Society (2026).
+- Board Member - Counter Culture Labs (2014-2016).
 
 ---
 
-## Links
-
-- [GitHub](https://github.com/ceremona)
-- [LinkedIn](https://www.linkedin.com/in/ceredavis/)
-- [Art & Curatorial Archive](/projects)
+© 2026 Cere Davis cere@ceredavis.com
 </div>
