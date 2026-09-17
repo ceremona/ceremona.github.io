@@ -17,7 +17,7 @@ modeling of physical systems. Nearly three decades across Linux kernel internals
 networking, and distributed systems, now focused on scientific computing and
 geophysical data.
 
-ceremona@gmail.com · 206.734.1523 · [github](https://github.com/ceremona) · [linkedin](https://linkedin.com/in/ceredavis)
+ceremona_at_gmail.com · 206.414.9448 · [github](https://github.com/ceremona) · [linkedin](https://linkedin.com/in/ceredavis)
 
 
 ## Trajectory
@@ -158,5 +158,5 @@ calibration, LabVIEW, LTSpice, KiCad, CAD (Fusion 360)
 
 ---
 
-© 2026 Cere Davis cere@ceredavis.com
+© 2026 Cere Davis cere_at_ceredavis.com
 </div>
