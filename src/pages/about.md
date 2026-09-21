@@ -39,9 +39,8 @@ If you would like to reach out to me, I can be found at:
 - Editor of "Captaincy, a naval miniatures game for the age of sail" by John Carnahan
 - Instructables: Creating Long Acousto-Kinetic "Reverb" Springs
 - C M Davis and S. McNutt, Lightning Associated with the 1992 Eruptions of Mt. Spurr Volcano, Alaska. EOS, Transactions of the American Geophysical Union, vol. 74, no. 43, supplement, p. 649, 1993.
-- C M Davis and S. McNutt, Volcanic Lightning at Mt. Spurr, 1992. Colima Volcano: Fourth International Meeting, Colima, Mexico. January 24 to 28, 1994, p. 112, Abstracts Volume
 - C Davis, G Seshaajyar, JP McClymer, A Comparison of Micro-Viscosity to Shear Viscosity in Lyotropic Nematic Liquid Crystals. Bulletin of APS, v. 38, issue. 768 (1993)
-- S R McNutt and C M Davis, Lightning Associated with the 1992 Eruptions of Crater Peak, Mount Spurr Volcano, Alaska. Journal of Volcanology and Geothermal Research, vol. 102, no. 1–2, pp. 45–65, 2000.
+- S. McNutt and C M Davis, Volcanic Lightning at Mt. Spurr, 1992. Colima Volcano: Fourth International Meeting, Colima, Mexico. January 24 to 28, 1994, p. 112, Abstracts Volume
 
 ## Awards
 

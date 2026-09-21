@@ -51,11 +51,12 @@ of physical-world data.
 
 ## Publications
 
-- C.M. Davis & S.R. McNutt, "Lightning Associated with the 1992 Eruptions of
+- C.M. Davis, "Volcanic lightning observations" — Mount Spurr (EOS/AGU, 1993) 
+- C.M. Davis,  "A Comparison of Micro-Viscosity to Shear Viscosity in Lyotropic Nematic Liquid Crystals," *Bulletin of the American Physical Society*, 1993.
+- S. McNutt and C.M. Davis, Volcanic Lightning at Mt. Spurr, 1992. Colima Volcano: Fourth International Meeting, Colima, Mexico. January 24 to 28, 1994, p. 112, Abstracts Volume
+- S.R. McNutt & C.M. Davis, "Lightning Associated with the 1992 Eruptions of
   Crater Peak, Mount Spurr Volcano, Alaska," *Journal of Volcanology & Geothermal
   Research*, 2000.
-- Volcanic lightning observations — Mount Spurr (EOS/AGU, 1993); Colima (1994).
-- "A Comparison of Micro-Viscosity to Shear Viscosity in Lyotropic Nematic Liquid Crystals," *Bulletin of the American Physical Society*, 1993.
 
 ## Engineering Experience
 
@@ -64,12 +65,12 @@ of physical-world data.
 
 Deliver instrumentation, data-acquisition software, and physical-measurement analysis for industrial, energy, and environmental clients.
 
+- Research & prototyping: Iterative hardware/software design for scientific instrumentation; laboratory testing protocols, data analysis, and materials characterization.
+- Mechatronic & kinetic systems: Sensor-driven kinetic assemblies with real-time closed-loop motor control; CAD (Fusion 360), embedded programming (C/C++, Python, Arduino Microcontrollers) analog sensor integration.
 - ALL Power Labs (2019): Designed, built, and field-tested a thermal measurement and monitoring system for a large-scale industrial pyrolysis reactor. Sensor selection, analog frontend and PCB development (KiCad, LTSpice), signal conditioning, calibration, and real-time data acquisition (LabVIEW, Python) under thermal and electrical noise. Planned integration into a downstream data-analytics pipeline.
 - Inspect Air Quality (2017): Wrote data-acquisition and control code for environmental sensor systems on 32-bit microcontrollers; authored deployment and programming documentation for non-specialist field users.
 - ElectroTherm (2014–2015): Analyzed solar radiance measurements for a thermal solar tracker developer. Integrated client time-series with NREL reference datasets to quantify power-conversion gains; validated measured performance against a national reference standard.
 - Energy R&D client (2013–2014): Lab instrumentation operation and maintenance, experimental physical-measurement data analysis, and lab data-acquisition and computing infrastructure.
-- Mechatronic & kinetic systems: Sensor-driven kinetic assemblies with real-time closed-loop motor control; CAD (Fusion 360), embedded programming (C/C++, Python, Arduino Microcontrollers) analog sensor integration.
-- Research & prototyping: Iterative hardware/software design for scientific instrumentation; laboratory testing protocols, data analysis, and materials characterization.
 
 **Principal Platform Design Engineer, VCE** · Jun 2011 – Jun 2012 · Full-time
 *San Jose, CA · On-site*
