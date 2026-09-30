@@ -39,7 +39,7 @@ analysis for industrial, energy, and environmental clients.
 thermal measurement and monitoring system for industrial pyrolysis and
 gasification reactors — measuring heat output across varying feedstock input
 rates. Owned sensor selection, analog frontend and PCB development (KiCad,
-LTSpice), signal conditioning, calibration, and real-time data acquisition
+SPICE), signal conditioning, calibration, and real-time data acquisition
 (LabVIEW, Python) under thermal and electrical noise. Planned integration into
 a downstream data-analytics pipeline.
 - **Inspect Air Quality (2017):** Wrote data-acquisition and control code for
