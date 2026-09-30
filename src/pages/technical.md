@@ -39,7 +39,7 @@ analysis for industrial, energy, and environmental clients.
 thermal measurement and monitoring system for industrial pyrolysis and
 gasification reactors — measuring heat output across varying feedstock input
 rates. Owned sensor selection, analog frontend and PCB development (KiCad,
-SPICE), signal conditioning, calibration, and real-time data acquisition
+LTSpice), signal conditioning, calibration, and real-time data acquisition
 (LabVIEW, Python) under thermal and electrical noise. Planned integration into
 a downstream data-analytics pipeline.
 - **Inspect Air Quality (2017):** Wrote data-acquisition and control code for
@@ -142,7 +142,7 @@ instrumentation behavior, leading to a co-authored publication.
 
 **Pulse-Response Test Pipeline** · 2026 · [github.com/ceremona/pulse-pipeline](https://github.com/ceremona/pulse-pipeline)
 Bench fixture and analysis pipeline measuring supercapacitor ESR and capacitance
-from switched-load pulse response. Fixture modeled in NGspice; analysis validated
+from switched-load pulse response. Fixture modeled in NGSpice; analysis validated
 by recovery of known injected values; oscilloscope capture via SCPI over TCP;
 per-pulse QA and provenance records in SQL.
 
@@ -184,7 +184,7 @@ structured experimental records, database-backed tooling
 **Systems:** Linux internals, TCP/IP networking (L1–7), virtualization, automation
 frameworks, git, CI
 **Hardware:** microcontrollers, embedded systems, data acquisition, LabVIEW,
-LTSpice, KiCad, CAD (Fusion 360)
+SPICE, KiCad, CAD (Fusion 360)
 
 ## Education
 
