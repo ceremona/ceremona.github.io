@@ -35,6 +35,8 @@ Currently focused on test infrastructure and test-data systems.
 Deliver instrumentation, data-acquisition software, and physical-measurement
 analysis for industrial, energy, and environmental clients.
 
+- **Independent R&D (2025–Present):** Pulse-test fixture and analysis pipeline — supercapacitor ESR and capacitance from switched-load pulse response, with an NGspice model, oscilloscope capture, integrity checks, and SQL records. Li-ion cycle-life data pipeline — capacity fade, coulombic efficiency, and DCIR from public cycling data, with a per-cycle integrity audit.
+- **Renovation (2023–2024):** Electrical and plumbing for a full house renovation ahead of sale; extensive fault-tracing and diagnosis of legacy knob-and-tube circuits.
 - **ALL Power Labs (2019):** Designed, built, commissioned, and field-tested a
 thermal measurement and monitoring system for industrial pyrolysis and
 gasification reactors — measuring heat output across varying feedstock input
