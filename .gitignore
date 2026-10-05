@@ -9,3 +9,5 @@ setup.sh
 *.swp
 *.swo
 *~
+src/pages/technical1.md
+src/pages/technical2.md
