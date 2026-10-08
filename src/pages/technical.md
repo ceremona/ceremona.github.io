@@ -8,10 +8,12 @@ title: "..."
 
 <div class="prose">
 
-## Measurement & Instrumentation Engineering
+## Sensing & Measurement Engineering — Instrumentation, Signal Quality & Test Infrastructure
 
-Sensor characterization, test-system development, data acquisition, and
-physical-signal analysis across industrial, energy, and scientific applications.
+Sensor characterization, measurement-performance validation, test-fixture design,
+and signal-quality investigation across industrial, field, and research
+environments. Physics foundation with deep experience in electromagnetic coupling,
+grounding practice, and instrument calibration.
 
 ceremona@gmail.com · 206.414.9448 · ceredavis.com · github.com/ceremona · linkedin.com/in/ceredavis
 
@@ -19,38 +21,64 @@ ceremona@gmail.com · 206.414.9448 · ceredavis.com · github.com/ceremona · li
 
 Physical measurement systems end to end: designing, building, commissioning,
 calibrating, and maintaining instruments and data-acquisition infrastructure;
-measuring industrial thermal processes (pyrolysis, gasification, pressurized
-reactor systems); and separating true physical signals from equipment and data
-artifacts. Physics foundation with published field-geophysics research. Currently
-focused on sensor characterization, test-system development, and the analysis of
-physical measurement data.
+root-causing sensor signal issues from field observation to bench reproduction;
+and separating true physical signals from equipment and data artifacts. Physics
+foundation with published field-geophysics research and hands-on electromagnetic
+diagnostics. Currently focused on sensing performance, measurement validation,
+and test infrastructure.
 
 ## Professional Experience
 
 **Independent Systems Engineer & Research Consultant** · Jul 2012 – Present
 *Berkeley, CA · Hybrid / Remote*
 
-- **Independent R&D (2025–Present):** Instrumentation and measurement practice serving industrial, energy, and environmental clients, with project-based engagements typically running three to twelve months. The practice has run alongside concurrent residencies at science and maker institutions (*see Residencies & Community*) and graduate study (MA, 2020–2022). Test-fixture design, sensor characterization, and data-acquisition pipelines for physical measurement data.
+Independent instrumentation and measurement practice serving industrial, energy,
+and environmental clients, with project-based engagements typically running three
+to twelve months. The practice has run alongside concurrent residencies at science
+and maker institutions (see Residencies & Community) and graduate study
+(relocated to Germany in 2019; MA, 2020–2022).
+
+- **Independent R&D (2025–Present):** Self-directed study in sensing, measurement,
+  and physical computation. New domains are approached by building reduced-scale
+  prototypes of the core measurement problem — recent examples include a
+  pulse-response fixture for supercapacitor ESR and capacitance (SPICE model and
+  analysis pipeline validated against injected ground truth; oscilloscope capture
+  validated against a Siglent SDS804X HD) and a Li-ion cycle-life data pipeline
+  with per-cycle integrity auditing.
+- **Coherer & memristive computation (2026, in development):** Research and
+  exhibit development on the Branly coherer — an early RF detector whose
+  history-dependent resistance switching is argued in the literature to be
+  memristive — as a physical computing substrate and interactive public exhibit
+  (California Historical Radio Society). RF and device characterization; electrode
+  geometry exploration using a Sierpinski gasket to distribute RF energy across
+  the ground plane; durability engineering for long-term public interaction.
 - **Owner-performed renovation (Mar 2023 – Apr 2024):** Electrical and plumbing
   for a full house renovation ahead of sale; extensive fault-tracing and diagnosis
   of legacy knob-and-tube circuits.
 - **All Power Labs (May–Aug 2019):** Designed, built, and field-tested a thermal
-  measurement system for industrial pyrolysis and gasification reactors — sensor
-  selection, analog frontend and PCB design (KiCad, LTSpice), signal conditioning,
-  calibration, and real-time data acquisition under thermal and electrical noise.
+  measurement system for industrial pyrolysis and gasification reactors —
+  researched and selected temperature sensors, analog frontend and PCB design
+  (KiCad, LTSpice), signal conditioning, calibration, and real-time data
+  acquisition under thermal and electrical noise.
 - **Inspect Air Quality (2017):** Wrote data-acquisition and control code for
   environmental sensor systems on 32-bit microcontrollers; authored deployment
-  procedures for non-specialist field operators.
+  SOPs enabling non-specialist operators to run equipment in the field.
 - **ElectroTherm (2014–2015):** Validated solar-tracker performance against NREL
   reference datasets, quantifying power-conversion gains against a national standard.
 - **Energy R&D client (2013–2014):** Operated and maintained instrumentation
-  monitoring thermal output of a pressure-vessel reactor; calibrated thermocouples;
-  built lab data-acquisition infrastructure (LabVIEW).
+  monitoring thermal output of a pressure-vessel reactor; performed thermocouple
+  calibration against a water-bath reference; built LabVIEW/NI data-acquisition
+  infrastructure.
 - **Mechatronic & kinetic systems:** Sensor-driven kinetic assemblies with
-  real-time closed-loop motor control; CAD (Fusion 360), embedded programming
-  (C/C++, Python, microcontrollers), and analog sensor integration.
+  real-time closed-loop motor control — accelerometers, IMUs, and position sensors
+  integrated with Pure Data and SuperCollider for feedback and interactive systems.
+  Strain-gauge prototyping in sculpture; soldering and custom driver-circuit
+  assembly. CAD (Fusion 360), digital fabrication (3D printing, laser cutting,
+  vinyl cutting), embedded programming (C/C++, Python, microcontrollers), custom
+  cabling.
 - **Research & prototyping:** Iterative hardware/software design for scientific
-  instrumentation; laboratory testing protocols, data analysis, and materials
+  instrumentation; sensor mounting and wiring practice, grounding and noise
+  control; laboratory testing protocols, data analysis, and materials
   characterization.
 
 **Principal Platform Design Engineer, VCE** · Jun 2011 – Jun 2012 · Full-time
@@ -88,9 +116,10 @@ physical measurement data.
 - **Systems prototyping:** Built complex, multi-vendor lab environments (Cisco
   6500, VMware ESX, LanForge packet generators) to mirror production failure modes.
 - **Automation & performance:** Developed test automation, instrumentation, and
-  standardized validation protocols for Alpha/Beta release testing; led weekly
-  vendor technical support case reviews and fed supportability findings back to
-  product engineering.
+  standardized validation protocols for Alpha/Beta release testing.
+- **Operational ownership:** Owned escalation triage for WAN optimization
+  products; led weekly technical support case reviews and fed supportability
+  findings back to product engineering.
 
 **Senior System Architect & Engineer, University of Washington** · Jul 1997 – Jul 2005
 *Seattle, WA · Full-time*
@@ -99,33 +128,48 @@ physical measurement data.
   for compatibility with the OpenMosix distributed process-migration patch.
   Debugged race conditions and memory-model issues across a clustered Unix environment.
 - **Cluster architecture:** Architected and built a research-grade Unix compute
-  cluster and network infrastructure from the ground up. Developed load-gathering
-  tools (Python), TCP/IP state-tracking utilities, and automation frameworks for
-  cluster software deployment and performance regression testing.
+  cluster and network infrastructure from the ground up; held sole operational
+  ownership of uptime and incident response. Developed load-gathering tools
+  (Python), TCP/IP state-tracking utilities, and automation frameworks for cluster
+  software deployment and performance regression testing.
+- **Database-backed tooling:** Built account-management and operational software
+  on MySQL (Ruby, Python).
 - **Virtualization:** Deployed and managed Xen and VMware virtual-desktop environments.
+- **Training & mentorship:** Trained coworkers and new hires on operational
+  infrastructure; presented courses and technical talks on the computing environment.
 
 **Unix Systems Administrator, North Seattle Community College** · 1996–1997
 
 **Unix Systems Deployment Engineer, Digital Systems Inc.** · 1995
 
 **Science Technician, South Pole Station, Antarctica** · 1993–1994
-*Atmospheric ozone / optical instrumentation*
+*Atmospheric ozone / optical and RF instrumentation*
 
-- **Instrument operations:** Operated, maintained, and repaired optical, UV-A/B/C,
-  and aurora/airglow measurement instruments for atmospheric ozone research.
+- **Instrument operations & calibration:** Operated, maintained, and repaired
+  optical, UV-A/B/C, and aurora/airglow measurement instruments; performed routine
+  calibration checks and instrument verification on a rotating schedule.
+- **Repair & electronics:** Performed component-level repair and soldering
+  (including transistor replacement on amplifier boards) with no resupply available.
+- **Grounding & noise control:** Worked daily against capacitive coupling and
+  grounding problems in a high-EMI environment; assisted in diagnosis and repair
+  of the station's first satellite ground station, working with spread-spectrum
+  and quadrature phase-shift keying (QPSK) signals.
 - **Field conditions:** Collected continuous data through the Antarctic winter;
-  diagnosed and repaired instrument failures in isolation, with no resupply, no
-  repair parties, and no possibility of recovering lost data.
+  diagnosed and repaired instrument failures in isolation, with no possibility of
+  recovering lost data.
 
-**Seismological Analyst (Intern), University of Alaska Fairbanks — Geophysical Institute** · 1992–1993
-*Field seismology / multi-station data analysis*
+**Seismological Data Analyst, University of Alaska Fairbanks — Geophysical Institute** · 1991–1993
+*Field seismology / multi-station network data*
 
-- **Field deployment & analysis:** Assisted in regional seismometer field deployment;
-  performed multi-station time-series analysis on seismic network data.
+- **Field deployment:** Assisted in regional seismometer field deployment, with
+  attention to sensor mounting and grounding in the field.
+- **Network data quality:** Monitored data quality and instrument health across a
+  multi-station seismic network, distinguishing instrument faults from genuine
+  geophysical signals.
 - **Anomaly triage:** Identified anomalous simultaneous signals across stations,
-  showed the simultaneity could not be explained by acoustic propagation, and traced
-  the signal to volcanic lightning — separating a true physical signal from
-  instrumentation behavior, leading to a co-authored publication.
+  showed the simultaneity could not be explained by acoustic propagation, and
+  traced the signal to volcanic lightning (inductive electromagnetic pickup) —
+  leading to a co-authored publication.
 
 ## Publications
 
@@ -140,17 +184,26 @@ physical measurement data.
 
 ## Tools & Methods
 
-**Languages:** Python, C, C++, SQL, Shell
-**Test & Measurement:** instrument installation and commissioning, calibration
-and preventive maintenance, thermocouple calibration, sensor characterization,
-signal conditioning, measurement uncertainty, SOP development and documentation,
-root-cause analysis
-**Data:** NumPy, SciPy, pandas; time-series analysis, uncertainty quantification,
-structured experimental records, database-backed tooling
-**Systems:** Linux internals, TCP/IP networking (L1–7), virtualization, automation
-frameworks, git, CI
-**Hardware:** microcontrollers, embedded systems, data acquisition, LabVIEW,
-LTSpice, KiCad, CAD (Fusion 360)
+**Test & Measurement:** test-fixture design, sensor selection and characterization,
+sensor mounting and wiring, signal conditioning, calibration and preventive
+maintenance (thermocouple water-bath reference), measurement uncertainty,
+grounding and noise practice, SOP development, root-cause analysis,
+hardware-in-the-loop test infrastructure
+**Instrumentation:** oscilloscope (Siglent SDS804X HD, SCPI over LAN), DAQ,
+LabVIEW with NI hardware/modules, LTSpice/SPICE circuit simulation, KiCad
+**Sensors:** thermocouples, accelerometers, IMUs, position sensors,
+strain gauges (prototype), seismometers
+**Signal & Data:** sampling (Nyquist) fundamentals, time-series analysis,
+uncertainty quantification; Python (NumPy, SciPy, pandas), MATLAB (coursework);
+structured experimental records
+**Databases:** PostgreSQL, MySQL — deployment, administration, and schema design;
+SQL query layers, database-backed tooling
+**Systems:** Linux kernel internals, distributed systems, TCP/IP networking
+(L1–7), virtualization (Xen, VMware), Kubernetes (self-directed multi-node test
+deployments), automation frameworks, git, CI
+**Hardware & Fabrication:** microcontrollers, embedded systems, custom cabling,
+soldering and component-level repair, CAD (Fusion 360), 3D printing, laser
+cutting, vinyl cutting
 
 ## Education
 

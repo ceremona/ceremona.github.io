@@ -20,7 +20,7 @@ I have worked in a wide range of domains, including instrumenation field work, d
 My art exhibits and workshops are motivated by a central curiosity about complex systems and a desire to inspire scientific curiosity in others. I believe science can be playful and epistemology can be fun, even for adults.
 I offer workshops and develop educational curriculum adjacent to the scientific principles underlying my [kinetic sculpture and scientific artworks](/projects). 
 
-When I am not doing research, programming or making exhibits, I enjoy dance or playing abstract compositions on the piano.
+When I am not doing research, programming or making exhibits, I enjoy playing abstract compositions on the piano and african dancing.
 
 If you would like to reach out to me, I can be found at:
 
